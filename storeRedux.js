@@ -8,3 +8,4 @@ store.subscribe(function () {
     console.log(store.getState());
 });
 store.dispatch(contador_actions_1.incrementadorAction);
+store.dispatch(contador_actions_1.decrementadorAction);

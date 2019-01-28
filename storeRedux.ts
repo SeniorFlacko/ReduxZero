@@ -1,6 +1,6 @@
 import { Store, createStore } from 'redux';
 import { contadorReducer } from './contador/contador.index';
-import { incrementadorAction } from './contador/contador.actions';
+import { incrementadorAction, decrementadorAction } from './contador/contador.actions';
 
 const store: Store = createStore( contadorReducer );
 
@@ -9,5 +9,6 @@ store.subscribe(() =>{
 });
 
 store.dispatch(incrementadorAction);
+store.dispatch(decrementadorAction);
 
 

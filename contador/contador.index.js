@@ -5,5 +5,7 @@ exports.incrementadorAction = contador_actions_1.incrementadorAction;
 exports.decrementadorAction = contador_actions_1.decrementadorAction;
 exports.multiplicarAction = contador_actions_1.multiplicarAction;
 exports.dividirAction = contador_actions_1.dividirAction;
+exports.contadorAction = contador_actions_1.contadorAction;
+exports.resetAction = contador_actions_1.resetAction;
 var contador_reducer_1 = require("./contador.reducer");
 exports.contadorReducer = contador_reducer_1.contadorReducer;
